@@ -1,0 +1,13 @@
+/* Notification.module.css */
+
+.notification {
+  margin: 20px auto;
+  padding: 10px;
+  max-width: 400px;
+  font-size: 23px;
+  color: #666;
+  text-align: center;
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
