@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Options from "./components/Options/Options";
 import Feedback from "./components/Feedback/Feedback";
 import Notification from "./components/Notification/Notification";
+import Description from "./components/Description/Description";
 
 function App() {
   const [feedback, setFeedback] = useState({
@@ -44,11 +45,7 @@ function App() {
     <div className="appContainer">
       {/* Main content placed above the video */}
       <div className="content">
-        <h2>Sip Happens Café</h2>
-        <p>
-          Please leave your feedback about our service by selecting one of the
-          options below.
-        </p>
+        <Description />
 
         <Options
           onFeedback={updateFeedback}
